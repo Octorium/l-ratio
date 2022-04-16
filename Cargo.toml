@@ -1,0 +1,16 @@
+[package]
+name = "l-ratio"
+description = "Rust implementation of https://knowyourmeme.com/memes/l-ratio-you-x"
+license = "CC0"
+version = "1.0.0"
+repository = "https://github.com/Octorium/l-ratio"
+authors = ["Arc-blroth <45273859+Arc-blroth@users.noreply.github.com>"]
+edition = "2021"
+
+[features]
+nightly = []
+
+[[example]]
+name = "ratio"
+path = "examples/ratio.rs"
+required-features = ["nightly"]
