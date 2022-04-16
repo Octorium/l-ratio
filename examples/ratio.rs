@@ -13,30 +13,8 @@ struct You;
 
 ratio!(You);
 
-fn get_argument_response() -> impl L
-       + Ratio
-       + DontCare
-       + DidntAsk
-       + CryAboutIt
-       + StayMad
-       + GetReal
-       + Mald
-       + Seethe
-       + Cope
-       + Basic
-       + SkillIssue
-       + YouFellOff
-       + Triggered
-       + Redpilled
-       + GetALife
-       + OkAnd
-       + Cringe
-       + NotBased
-       + TouchGrass
-       + Donowalled
-       + Send
-       + Sync
-       + 'static {
+#[rustfmt::skip]
+fn get_argument_response() -> impl L + Ratio + DontCare + DidntAsk + CryAboutIt + StayMad + GetReal + Mald + Seethe + Cope + Basic + SkillIssue + YouFellOff + Triggered + Redpilled + GetALife + OkAnd + Cringe + NotBased + TouchGrass + Donowalled + Send + Sync + 'static {
     You
 }
 
